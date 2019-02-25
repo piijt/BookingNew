@@ -62,6 +62,12 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>head</find>
+      <find>laravel</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -215,9 +221,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="306" />
+    <option name="y" value="85" />
+    <option name="width" value="980" />
+    <option name="height" value="955" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -231,59 +238,46 @@
         <subPane>
           <expand>
             <path>
-              <item name="BookingSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="BookingNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookingNew" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BookingSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookingSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="BookingNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookingNew" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BookingSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookingSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookingSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookingSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookingSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="BookingNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookingNew" type="462c0819:PsiDirectoryNode" />
               <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BookingSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="BookingNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookingNew" type="462c0819:PsiDirectoryNode" />
               <item name="database" type="462c0819:PsiDirectoryNode" />
               <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BookingSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="BookingNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookingNew" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BookingSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="BookingNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookingNew" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BookingSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="BookingNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookingNew" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="auth" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BookingSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookingSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="BookingNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookingNew" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
@@ -296,9 +290,11 @@
               <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="BookingSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookingSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
+              <item name="BookingNew" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BookingNew" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -310,7 +306,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BookingSystem1" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -323,7 +319,6 @@
       <recent name="C:\xampp\htdocs\bookingSys\resources\views" />
       <recent name="C:\xampp\htdocs\bookingSys\app\Http\Controllers" />
       <recent name="C:\xampp\htdocs\bookingSys\app\Http" />
-      <recent name="C:\xampp\htdocs\bookingSys\resources\views\contact" />
     </key>
   </component>
   <component name="RunDashboard">
