@@ -26,7 +26,20 @@
     </div>
     <div class="main-cards">
       <div class="card">
-        <h1 class="title">Reservationer</h1>
+          <table>
+              <tr>
+                  <td><b>Lokale</b></td>
+                  <td><b>Reservations dato</b></td>
+                  <td><b>Rekvirent</b></td>
+              </tr>
+              @foreach (App\Reservation::all() as $reservation)
+                  <tr>
+                      <td>{{ $reservation->lokale }}</td>
+                      <td>{{ $reservation->datotid }}</td>
+                      <td>{{ $reservation->rekvirent }}</td>
+                  </tr>
+              @endforeach
+          </table>
           
       </div>
       <div class="card">
