@@ -7,15 +7,14 @@
     <h1 id="name" class="name">Reservation af lokale: {{ $reservation->lokale }}</h1>
       <table>
         <tr>
-            <td><b>Oprettet af</b></td>
             <td><b>Lokale</b></td>
             <td><b>Dato Tid</b></td>
             <td><b>Rekvirent</b></td>
             <td><b>Oprettelses dato</b></td>
             <td><b>Opdaterings dato</b></td>
         </tr>
+
         <tr>
-            <td>HVEM OPRETTEDE DENNE RESERVATION</td>
             <td>{{ $reservation->lokale }}</td>
             <td>{{ $reservation->datotid }}</td>
             <td>{{ $reservation->rekvirent }}</td>
@@ -28,5 +27,4 @@
     <input type="button" onclick="udskriv('printable')" value="Udskriv"/>
   </center>
   </main>
-
 @endsection
