@@ -146,7 +146,6 @@
       fill: "#394263",
       isDragging: false
       });
-
       // teachers table
       rects.push({
       x: 65 - -30,
@@ -156,7 +155,6 @@
       fill: "red",
       isDragging: false
       });
-
       // Projector
       rects.push({
       x: 25 - 5,
@@ -166,10 +164,6 @@
       fill: "#394263",
       isDragging: false
       });
-
-
-
-
       //Door
       rects.push({
       x: 300 - -45,
@@ -179,7 +173,6 @@
       fill: "green",
       isDragging: false
       });
-
       // listen for mouse events
       canvas.onmousedown = myDown;
       canvas.onmouseup = myUp;
@@ -190,15 +183,15 @@
 
       // draw a single rect
       function rect(x, y, w, h) {
-      ctx.beginPath();
-      ctx.rect(x, y, w, h);
-      ctx.closePath();
-      ctx.fill();
+        ctx.beginPath();
+        ctx.rect(x, y, w, h);
+        ctx.closePath();
+        ctx.fill();
       }
 
       // clear the canvas
       function clear() {
-      ctx.clearRect(0, 0, WIDTH, HEIGHT);
+        ctx.clearRect(0, 0, WIDTH, HEIGHT);
       }
 
       // redraw the scene
@@ -211,12 +204,8 @@
           var r = rects[i];
           ctx.fillStyle = r.fill;
           rect(r.x, r.y, r.width, r.height);
+        }
       }
-      }
-
-
-
-
       // handle mousedown events
       function myDown(e) {
 
@@ -242,8 +231,6 @@
       startX = mx;
       startY = my;
       }
-
-
       // handle mouseup events
       function myUp(e) {
       // tell the browser we're handling this mouse event
@@ -255,10 +242,8 @@
       for (var i = 0; i < rects.length; i++) {
           rects[i].isDragging = false;
           rects[i].noDrag = true;
+        }
       }
-      }
-
-
       // handle mouse moves
       function myMove(e) {
       // if we're dragging anything...
@@ -290,10 +275,8 @@
 
           // redraw the scene with the new rect positions
           draw();
-
           // reset the starting mouse position for the next mousemove
           startX = mx;
           startY = my;
-
         }
       }
