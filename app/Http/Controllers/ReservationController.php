@@ -13,6 +13,12 @@ class ReservationController extends Controller
     {
         $reservationer = \App\Reservation::all();
         return view('reservation.index', compact('reservationer'));
+
+        $resera = DB::table('reservation')
+            ->select('reservation.lokale', 'reservation.datotid', 'reservation.rekvirent')
+            ->from('reservation')
+            ->orderBy('datotid', asc);
+            return view('resera.index', compact('reseras'));
     }
 
 
@@ -28,12 +34,8 @@ class ReservationController extends Controller
                     'lokale' => ['required'],
                     'datotid' => ['required', 'min: 6'],
                     'rekvirent' => ['required'],
-
-
                 ]));
             return redirect('/reservation');
-
-
         }
     }
 
