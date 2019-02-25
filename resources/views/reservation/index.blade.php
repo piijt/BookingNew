@@ -25,9 +25,8 @@
                     <td>{{ $reservation->created_at }}</td>
                     <td>{{ $reservation->updated_at }}</td>
                     <td><a href="/reservation/{{ $reservation->id }}">Oplysninger</a></td>
-                    <td><a href="/reservation/{{ $reservation->id }}/edit">Edit</a></td>
+                    <td><a href="/reservation/{{ $reservation->id }}/edit">Rediger</a></td>
                   </tr>
-
           @endforeach
     </table>
   </center>

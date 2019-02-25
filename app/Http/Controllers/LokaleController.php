@@ -29,9 +29,10 @@ class LokaleController extends Controller
      */
     public function store()
     {
+
         Lokale::create(
             request()->validate([
-                'lokalebetegnelse' => ['required', 'min: 2'],
+                'lokalebetegnelse' => ['required'],
                 'w' => ['required', 'min: 1'],
                 'h' => ['required', 'min: 1'],
                 'projektor' => ['required'],

@@ -2,7 +2,7 @@
 @extends('layouts.app')
 
 @section('content')
-<main class="show">
+<main class="config show">
 <center><h1>Opret en ny reservation</h1></center>
 
   <form method="POST" action="/reservation" class="form">
@@ -27,7 +27,13 @@
       </li>
 
       <li>
-        <input type="submit" value="Reserver Lokalet.." >
+        <label for="config">Konfiguration</label>
+          <canvas id="canvas" width=350 height=300  style="border: 1px solid #394263;"></canvas>
+        <span>Lokalets Konfiguration</span>
+      </li>
+
+      <li>
+        <input type="submit" value="Opret Reservation.." >
       </li>
     </ul>
   </form>
@@ -42,4 +48,6 @@
     </div>
 @endif
 </main>
+<script src="{{ URL::to('js/config.js')}}" charset="utf-8"></script>
+<script src="{{ URL::to('js/canvas_to_data.js')}}" charset="utf-8"></script>
 @endsection

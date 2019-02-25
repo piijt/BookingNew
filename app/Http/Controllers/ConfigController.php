@@ -2,8 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Lokale;
+use App\Config;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Input;
+
 
 class ConfigController extends Controller
 {
@@ -20,14 +22,24 @@ class ConfigController extends Controller
      */
     public function create()
     {
-
+      return view('config.create');
     }
 
     /**
      * Store a newly created resource in storage.
      */
-    public function store()
+    public function store(Request $request)
     {
+      $user = new Config;
+      $user->name = Input::get('navn');
+        if (Input::hasFile('image')) {
+          $file=Input::file('image');
+          $file->move(public_path(). '/', $file->getClientOriginalName());
+
+          $user->name = $file->getClientOriginalName();
+        }
+      $user->save();
+      return 'canvas saved';
 
     }
 

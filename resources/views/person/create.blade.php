@@ -1,18 +1,56 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title></title>
-</head>
-<body>
-<h1>Opret en ny person</h1>
+@extends('layouts.app')
 
-<form method="POST" action="/person">
+@section('content')
+<main class="show">
+    <center><h1>Opret en ny person</h1></center>
+    <form method="POST" action="/person" class="form">
+    {{ csrf_field() }}
+      <ul>
+        <li>
+          <label class="label" for="">Navn</label>
+              <input type="text" class="input" {{ $errors->has('name') ? 'is-danger' : '' }} name="name" value="{{ old('name') }}">
+          <span>Personens navn</span>
+        </li>
+
+        <li>
+          <label class="label" for="">Initialer</label>
+              <textarea name="initialer"  class="textarea"  {{ $errors->has('initialer') ? 'is-danger' : '' }}  >{{ old('initialer') }}</textarea>
+          <span>Personens initialer</span>
+        </li>
+
+        <li>
+          <label class="label" for="">Email</label>
+              <input type="text" class="input" {{ $errors->has('email') ? 'is-danger' : '' }} name="email" value="{{ old
+              ('email') }}">
+          <span>Personens Email</span>
+        </li>
+
+        <li>
+          <label class="label" for="">Telefon</label>
+              <input type="text" class="input" {{ $errors->has('telefon') ? 'is-danger' : '' }} name="telefon" value="{{ old
+              ('telefon') }}">
+          <span>Personens Telefonnummer</span>
+        </li>
+        <li>
+          <input type="submit" value="Opret Person" >
+        </li>
+      </ul>
+    </form>
+    @if ($errors->any())
+      <div class="notification is-danger">
+          <ul>
+              @foreach ($errors->all() as $error)
+                  <li>{{ $error }}</li>
+              @endforeach
+          </ul>
+      </div>
+    @endif
+  </form>
+{{-- <form method="POST" action="/person">
     {{ csrf_field() }}
 
-    <div class="field">
+
+   <div class="field">
         <label class="label" for="">Navn</label>
 
         <div class="control">
@@ -60,7 +98,6 @@
 
         </div>
     @endif
-</form>
-</body>
-</html>
-
+</form> --}}
+</main>
+@endsection

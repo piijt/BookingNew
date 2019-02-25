@@ -9,3 +9,10 @@ window.onclick = function(e) {
     }
   }
 }
+
+function convertCanvasToImgElement() {
+    var imgElement = ReImg.fromCanvas(document.querySelector('canvas')).toImg();
+    var output = document.querySelector('.output');
+    output.innerText = '';
+    output.appendChild(imgElement);
+}

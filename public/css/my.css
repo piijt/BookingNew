@@ -11,7 +11,7 @@ table, th, td {
     border: 0.5px solid #2f2f3c;
     color: #f1f1f1;
     text-align: center;
-    padding: 5px 20px 5px 20px;
+    padding: 5px 40px 5px 40px;
 
 }
 
@@ -182,8 +182,9 @@ a {
   padding: 20px;
   height: 150px;
   width: auto;
-  background-image: url('/img/scaled.png');
+  background-image: url('/img/new.png');
   background-color: silver;
+  background-size: cover;
   color: #f1f1f1;
 }
 

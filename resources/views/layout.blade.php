@@ -4,4 +4,5 @@
   <main>
       @yield('content')
   </main>
+
 @endsection

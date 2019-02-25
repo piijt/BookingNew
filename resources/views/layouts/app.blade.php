@@ -45,12 +45,14 @@
             <li class="main_item"><i class="fas fa-book-open"> Lokaler</i></li>
               <li class="sidenav_list-item"><a href={{ ('/lokale/create') }}>Opret</a></li>
               <li class="sidenav_list-item"><a href="{{('/lokale')}}">Se Lokaler</a></li>
-              <li class="sidenav_list-item"><a href="{{ ('config') }}">Konfigurer</a></li>
+              <li class="sidenav_list-item"><a href="{{ ('/config') }}">Konfigurer</a></li>
 
             <li class="main_item"><i class="fas fa-key"> Rekvirenter</i></li>
               <li class="sidenav_list-item"><a href="{{ ('/rekvirent/create') }}">Opret</a></li>
               <li class="sidenav_list-item"><a href="{{('/rekvirent')}}">Se Rekvirenter</a></li>
-              <li class="sidenav_list-item"><a href="{{('/rekvirent')}}">Rekvirent Oplysninger</a></li>
+              <li class="sidenav_list-item"><a href="{{('/person/create')}}">Opret Rekvirent Oplysninger</a></li>
+              <li class="sidenav_list-item"><a href="{{('/person')}}">Rekvirent Oplysninger</a></li>
+
 
             <li class="main_item"><i class="fas fa-user-plus"> Admin</i></li>
               <li class="sidenav_list-item"><a href="#">Rediger Brugere</a></li>

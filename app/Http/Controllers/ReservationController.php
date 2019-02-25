@@ -22,11 +22,12 @@ class ReservationController extends Controller
 
     public function store() {
         {
+
             Reservation::create(
                 request()->validate([
-                    'lokale' => ['required', 'min: 2'],
+                    'lokale' => ['required'],
                     'datotid' => ['required', 'min: 6'],
-                    'rekvirent' => ['required', 'min: 2'],
+                    'rekvirent' => ['required'],
 
 
                 ]));
@@ -35,10 +36,6 @@ class ReservationController extends Controller
 
         }
     }
-
-
-
-
 
     /**
      * Display the specified resource.

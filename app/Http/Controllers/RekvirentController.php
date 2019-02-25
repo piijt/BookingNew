@@ -33,10 +33,11 @@ class RekvirentController extends Controller
      */
     public function store()
     {
+
         Rekvirent::create(
             request()->validate([
                 'name' => ['required', 'min: 2'],
-                'initialer' => ['required', 'min: 2'],
+                'initialer' => ['required'],
 
             ]));
 
