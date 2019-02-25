@@ -13,7 +13,6 @@ table, th, td {
     text-align: center;
     padding: 5px 40px 5px 40px;
     text-align: left;
-
 }
 
 td > a {
@@ -49,6 +48,15 @@ a {
 
 .fa-info-circle:hover {
   color: #339af0;
+  opacity: .5;
+}
+
+.check-1:hover {
+  opacity: .5;
+}
+
+
+.fa-trash-alt:hover {
   opacity: .5;
 }
 
@@ -288,8 +296,14 @@ color: #f1f1f1;
    justify-content: space-between;
    padding: 20px;
    background-color: #394263;
+   /* background-color: #f1f1f1; */
    color: #f1f1f1;
  }
+
+ .overviewcard:nth-child(1){background-color: #394263;}
+ .overviewcard:nth-child(2){background-color: #394263;}
+ .overviewcard:nth-child(3){background-color: #d3d3;}
+ .overviewcard:nth-child(4){background-color: #d3d3;}
 
  .main-cards {
    column-count: 1;
@@ -308,6 +322,8 @@ color: #f1f1f1;
    padding: 24px;
    box-sizing: border-box;
  }
+
+ .card:nth-child(1){background-color:#394263;}
 
  .card:first-child { /* varies content for dynamic content appearance */
   height: 485px;

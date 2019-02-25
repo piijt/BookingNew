@@ -8,12 +8,12 @@
     </div>
     <div class="main-overview">
       <div class="overviewcard">
-          <div class="icon">Index</div>
-          <div class="text">Card</div>
+          <div class="icon">Slettede Reservationer</div>
+          <div class="text"><i class="far fa-trash-alt"></i></div>
       </div>
       <div class="overviewcard">
-          <div class="icon">Index</div>
-          <div class="text">Card</div>
+          <div class="icon">Nylige Reservationer</div>
+          <div class="text"><i class="fas fa-calendar-check check-1"></i></div>
       </div>
       <div class="overviewcard">
           <div class="icon">Index</div>
@@ -26,7 +26,7 @@
     </div>
     <div class="main-cards">
       <div class="card">
-              <table>
+            <table>
               <tr>
                   <td><b>Lokale</b></td>
                   <td><b>Reservations dato</b></td>
@@ -42,7 +42,7 @@
           </table>
       </div>
       <div class="card">
-        <p>Right Card Top</p>
+        Right Card Top
       </div>
       <div class="card">
           Right Card Bottom
