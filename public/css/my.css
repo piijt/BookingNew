@@ -12,6 +12,7 @@ table, th, td {
     color: #f1f1f1;
     text-align: center;
     padding: 5px 40px 5px 40px;
+    text-align: left;
 
 }
 
@@ -29,6 +30,26 @@ a {
 }
 .config {
   grid-area: main;
+}
+
+.fa-edit {
+  color: #12b886;
+  text-align: center;
+}
+
+.fa-edit:hover {
+  color: #12b886;
+  opacity: .5;
+}
+
+.fa-info-circle {
+  color: #339af0;
+  text-align: left;
+}
+
+.fa-info-circle:hover {
+  color: #339af0;
+  opacity: .5;
 }
 
 .form{
@@ -318,6 +339,9 @@ color: #f1f1f1;
   margin-left: 42px;
   color: black;
  }
+
+ .label > a {text-decoration: none;}
+ .label > a:hover {opacity: .5;}
 
  div .label > a {
    list-style-type: none;

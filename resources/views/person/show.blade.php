@@ -13,6 +13,6 @@
     </p>
 
     <p>
-        <button>Udskriv</button>
+        <i class="fas fa-print"><input type="button" onclick="udskriv('printable')" value="Udskriv" /></i>
     </p>
 @endsection

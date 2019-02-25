@@ -24,7 +24,7 @@
     </table>
   </div>
     <p><a href="/reservation/">Back</a></p>
-    <input type="button" onclick="udskriv('printable')" value="Udskriv"/>
+    <i class="fas fa-print"><input type="button" onclick="udskriv('printable')" value="Udskriv" /></i>
   </center>
   </main>
 @endsection

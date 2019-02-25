@@ -15,7 +15,7 @@
             {{ $person->name }} {{ $person->initialer }}  {{ $person->email }} {{ $person->telefon }}</li>
 
         <p>
-            <a href="/person/{{ $person->id }}/edit">Edit</a>
+            <a href="/person/{{ $person->id }}/edit"><i class="fas fa-edit"></i></a>
         </p>
 
         </a>

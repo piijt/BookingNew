@@ -14,7 +14,7 @@
           <td><b>Oprettelses dato</b></td>
           <td><b>Opdaterings dato</b></td>
           <td><b>Oplysninger</b></td>
-          <td><b>EDIT</b></td>
+          <td><b>Rediger</b></td>
       </tr>
           @foreach ($reservationer as $reservation)
                   <tr>
@@ -24,8 +24,8 @@
                     <td>{{ $reservation->rekvirent }}</td>
                     <td>{{ $reservation->created_at }}</td>
                     <td>{{ $reservation->updated_at }}</td>
-                    <td><a href="/reservation/{{ $reservation->id }}">Oplysninger</a></td>
-                    <td><a href="/reservation/{{ $reservation->id }}/edit">Rediger</a></td>
+                    <td><a href="/reservation/{{ $reservation->id }}"><i class="fas fa-info-circle"></i></a></td>
+                    <td><a href="/reservation/{{ $reservation->id }}/edit"><i class="fas fa-edit"></i></a></td>
                   </tr>
           @endforeach
     </table>

@@ -23,7 +23,7 @@
       </table>
     </div>
       <p><a href="/lokale/">Back</a></p>
-      <input type="button" onclick="udskriv('printable')" value="Udskriv"/>
+      <i class="fas fa-print"><input type="button" onclick="udskriv('printable')" value="Udskriv" /></i>
   </center>
   </main>
 
